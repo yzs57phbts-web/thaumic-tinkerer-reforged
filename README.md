@@ -9,7 +9,7 @@
 Нужны **Minecraft 1.21.1**, **Java 21** и **NeoForge 21.1**; общая сборка проверена на **21.1.264**.
 
 - [Наш Thaumcraft 4: Reforged 1.1-bbtt.30-filter.1](https://github.com/yzs57phbts-web/thaumcraft-4-reforged-dop/releases/tag/1.21.1-bbtt.30-filter.1).
-- Curios API **9.5.1** и TerraBlender **4.1.0.8** — зависимости проверенного ядра T4.
+- [Curios API 9.5.1](https://www.curseforge.com/minecraft/mc-mods/curios/files/6529130) и [TerraBlender 4.1.0.1+ для NeoForge](https://www.curseforge.com/minecraft/mc-mods/terrablender-neoforge/files/6054947) — зависимости ядра T4. Для совместных проверок использовался TerraBlender 4.1.0.8.
 - JEI необязателен. Измерение Bedrock и периферия ComputerCraft в этой версии не перенесены. Наличие модуля в исходниках не означает полной проверки всех сочетаний сторонних модов.
 
 Скачайте JAR из [релиза 1.1-bbtt.3](https://github.com/yzs57phbts-web/thaumic-tinkerer-reforged/releases/tag/1.21.1-v1.1-bbtt.3) и положите в `mods` вместе с зависимостями. В папке должна быть одна версия каждого мода.
