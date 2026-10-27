@@ -1,0 +1,9 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "thaumictinkerer:block/darkquartz1",
+    "top": "thaumictinkerer:block/darkquartz1",
+    "side": "thaumictinkerer:block/darkquartz0"
+  }
+}

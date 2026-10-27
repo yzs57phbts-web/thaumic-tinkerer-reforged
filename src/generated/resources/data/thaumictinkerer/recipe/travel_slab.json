@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "thaumictinkerer:travel_slab"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "Q": {
+      "item": "thaumcraft:travel_paving_stone"
+    }
+  },
+  "pattern": [
+    "QQQ"
+  ],
+  "result": {
+    "id": "thaumictinkerer:travel_slab",
+    "count": 6
+  }
+}

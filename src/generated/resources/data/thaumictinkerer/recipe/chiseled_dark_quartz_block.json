@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "thaumictinkerer:chiseled_dark_quartz_block"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "thaumictinkerer:dark_quartz_slab"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "Q": {
+      "item": "thaumictinkerer:dark_quartz_slab"
+    }
+  },
+  "pattern": [
+    "Q",
+    "Q"
+  ],
+  "result": {
+    "id": "thaumictinkerer:chiseled_dark_quartz_block"
+  }
+}

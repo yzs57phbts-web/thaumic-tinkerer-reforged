@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "thaumictinkerer:ward_slab"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "Q": {
+      "item": "thaumcraft:obsidian_totem"
+    }
+  },
+  "pattern": [
+    "QQQ"
+  ],
+  "result": {
+    "id": "thaumictinkerer:ward_slab",
+    "count": 6
+  }
+}

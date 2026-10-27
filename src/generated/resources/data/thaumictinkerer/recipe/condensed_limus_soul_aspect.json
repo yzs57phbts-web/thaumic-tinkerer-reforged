@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "thaumictinkerer:condensed_limus_soul_aspect"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "thaumictinkerer:limus_soul_aspect"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": {
+      "item": "thaumictinkerer:limus_soul_aspect"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "result": {
+    "id": "thaumictinkerer:condensed_limus_soul_aspect"
+  }
+}

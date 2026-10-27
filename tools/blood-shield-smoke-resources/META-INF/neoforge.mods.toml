@@ -1,0 +1,7 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="All Rights Reserved"
+[[mods]]
+modId="tt_combat_smoke"
+version="1"
+displayName="Blood shield visual validation"

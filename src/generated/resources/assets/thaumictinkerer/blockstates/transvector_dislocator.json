@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "facing=down,powered=false": {
+      "model": "thaumictinkerer:block/transvector_dislocator_down"
+    },
+    "facing=down,powered=true": {
+      "model": "thaumictinkerer:block/transvector_dislocator_down"
+    },
+    "facing=up,powered=false": {
+      "model": "thaumictinkerer:block/transvector_dislocator_up"
+    },
+    "facing=up,powered=true": {
+      "model": "thaumictinkerer:block/transvector_dislocator_up"
+    },
+    "facing=north,powered=false": {
+      "model": "thaumictinkerer:block/transvector_dislocator_north"
+    },
+    "facing=north,powered=true": {
+      "model": "thaumictinkerer:block/transvector_dislocator_north"
+    },
+    "facing=south,powered=false": {
+      "model": "thaumictinkerer:block/transvector_dislocator_south"
+    },
+    "facing=south,powered=true": {
+      "model": "thaumictinkerer:block/transvector_dislocator_south"
+    },
+    "facing=west,powered=false": {
+      "model": "thaumictinkerer:block/transvector_dislocator_west"
+    },
+    "facing=west,powered=true": {
+      "model": "thaumictinkerer:block/transvector_dislocator_west"
+    },
+    "facing=east,powered=false": {
+      "model": "thaumictinkerer:block/transvector_dislocator_east"
+    },
+    "facing=east,powered=true": {
+      "model": "thaumictinkerer:block/transvector_dislocator_east"
+    }
+  }
+}

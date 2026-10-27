@@ -1,0 +1,28 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "thaumictinkerer:dark_quartz_block"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "thaumictinkerer:dark_quartz_stairs"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "Q": {
+      "item": "thaumictinkerer:dark_quartz_block"
+    }
+  },
+  "pattern": [
+    "  Q",
+    " QQ",
+    "QQQ"
+  ],
+  "result": {
+    "id": "thaumictinkerer:dark_quartz_stairs",
+    "count": 4
+  }
+}

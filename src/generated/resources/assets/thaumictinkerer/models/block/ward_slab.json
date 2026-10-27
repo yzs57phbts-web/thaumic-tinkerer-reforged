@@ -1,0 +1,9 @@
+{
+  "render_type": "minecraft:cutout",
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "thaumcraft:block/paving_stone_warding",
+    "top": "thaumcraft:block/paving_stone_warding",
+    "side": "thaumcraft:block/paving_stone_warding"
+  }
+}

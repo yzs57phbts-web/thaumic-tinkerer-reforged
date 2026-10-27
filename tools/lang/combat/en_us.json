@@ -1,0 +1,5 @@
+{
+  "ttinkerer.bloodShield.use": "Right-click with an empty offhand: a 2-second, single-block shield.",
+  "ttinkerer.bloodShield.price": "Price: 3 magic damage. Cooldown: 3s; disabled by an axe: 5s.",
+  "tc.research_page.BLOOD_SWORD.1": "The sword feeds on its wielder's blood: each successful attack costs 2 magic damage.<BR><BR>Right-click with an empty offhand summons a phantom shield for 2 seconds. After the raising delay it blocks one frontal hit, charging 3 magic damage. Protection may reduce this price.<BR><BR>Blocking, releasing or timing out starts a 3-second cooldown; an axe disabling the shield extends it to 5 seconds. Sword attacks remain available during the cooldown.<BR><BR>Holding the sword increases movement speed."
+}

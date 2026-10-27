@@ -1,0 +1,23 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "thaumictinkerer:ichorium_ingot"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "thaumictinkerer:ichorium_nugget"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "thaumictinkerer:ichorium_ingot"
+    }
+  ],
+  "result": {
+    "id": "thaumictinkerer:ichorium_nugget",
+    "count": 9
+  }
+}

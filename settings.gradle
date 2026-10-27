@@ -1,0 +1,33 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
+}
+
+rootProject.name = 'thaumic-tinkerer-reforged'
+
+def thaumcraftDir = providers.gradleProperty("thaumcraftDir").orNull
+if (thaumcraftDir == null) {
+    def dir = settingsDir
+    while (dir.parentFile != null && !new File(dir.parentFile, "thaumcraft-4-reforged").isDirectory()) {
+        dir = dir.parentFile
+    }
+    def baseDir = new File(dir.parentFile, "thaumcraft-4-reforged")
+    def target = providers.gradleProperty("minecraft_version").get()
+    def candidates = [baseDir, new File(baseDir, ".worktrees/mc-${target}"), new File(baseDir.parentFile, "thaumcraft-4-reforged-${target}")]
+    thaumcraftDir = candidates.find { candidate ->
+        def propertiesFile = new File(candidate, "gradle.properties")
+        if (!propertiesFile.isFile()) return false
+        def values = new Properties()
+        propertiesFile.withInputStream { values.load(it) }
+        values.getProperty("minecraft_version") == target
+    }?.path
+    if (thaumcraftDir == null) {
+        throw new GradleException("No matching Thaumcraft checkout for ${target}; specify -PthaumcraftDir=/path/to/checkout")
+    }
+}
+includeBuild(thaumcraftDir)

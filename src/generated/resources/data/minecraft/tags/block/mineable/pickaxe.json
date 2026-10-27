@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "thaumictinkerer:chiseled_dark_quartz_block",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:corporeal_attractor",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:dark_quartz_block",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:dark_quartz_pillar",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:dark_quartz_slab",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:dark_quartz_stairs",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:dynamism_tablet",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:essentia_funnel",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:kinetic_attractor",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:levitational_locomotive",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:levitational_locomotive_relay",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:necromancy_tablet",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:osmotic_enchanter",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:thaumic_restorer",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:transvector_dislocator",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:transvector_interface",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:travel_slab",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:travel_stairs",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:ward_slab",
+      "required": false
+    },
+    {
+      "id": "thaumictinkerer:warp_gate",
+      "required": false
+    }
+  ]
+}

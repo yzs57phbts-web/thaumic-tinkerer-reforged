@@ -1,0 +1,15 @@
+gradle.projectsEvaluated {
+    def p = rootProject
+    def fixture = p.sourceSets.create('bloodShieldSmoke') {
+        java.srcDir('tools/blood-shield-smoke')
+        resources.srcDir('tools/blood-shield-smoke-resources')
+        compileClasspath += p.sourceSets.main.compileClasspath + p.sourceSets.main.output
+        runtimeClasspath += p.sourceSets.main.runtimeClasspath
+    }
+    p.extensions.getByName('neoForge').mods.create('tt_combat_smoke') { sourceSet(fixture) }
+    p.extensions.getByName('neoForge').runs.getByName('client').with {
+        gameDirectory = p.file('run/blood-shield-smoke')
+        programArgument('--width'); programArgument('1100')
+        programArgument('--height'); programArgument('700')
+    }
+}
